@@ -1,0 +1,36 @@
+@import "colores.scss";
+
+
+$anchoContenedor: 500px;
+
+
+div{
+    width: 50%;
+    height:600px;
+    background-color:rgb(99, 179, 99);
+
+    h2{
+        color: gray;
+        font-size: 40px;
+        font-family: verdana, arial, helvetica;
+    }
+
+    p{
+        color: yellow;
+        font-size: 30px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+
+    div{
+        background-color: $colorTitulo;
+        img{ width:100%}
+        h4{
+           width:$anchoContenedor;
+        }
+    }
+
+    h3{
+        color:$colorTitulo;
+
+    }
+}
